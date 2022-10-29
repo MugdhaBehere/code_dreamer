@@ -11,6 +11,9 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" /> */}
+          <link rel="icon" href="../public/favicon.ico" type="image/x-icon" />
+
+
           <title>CodeDreamer</title>
         </Head>
         <body>

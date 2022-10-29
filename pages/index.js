@@ -4,6 +4,7 @@ import { getPosts } from '../services';
 
 export default function Home({ posts }) {
   return (
+    
     <div className="container mx-auto px-10 mb-8">
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -30,4 +31,3 @@ export async function getStaticProps() {
     props: { posts },
   };
 }
-
